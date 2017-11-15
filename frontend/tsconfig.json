@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
-      "target": "es6",
+      "target": "es5",
       "module": "commonjs",
       "moduleResolution": "node",
       "emitDecoratorMetadata": true,
       "experimentalDecorators": true,
       "sourceMap": true,
       "noEmitHelpers": true,
-      "lib": ["es6", "dom"],
+      "lib": ["es2015", "dom"],
       "strictNullChecks": false,
       "baseUrl": "./src",
       "paths": [

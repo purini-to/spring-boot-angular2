@@ -8,7 +8,7 @@ export class HelloService {
     constructor(private _http: Http) {}
 
     getTest() {
-        return this._http.get('http://localhost:8080/test/get/json')
+        return this._http.get(`${process.env.API_BASE_PATH}/test/get/json`)
             .map((res:Response) => res.json());
     }
 }

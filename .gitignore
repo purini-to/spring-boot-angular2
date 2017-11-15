@@ -34,6 +34,7 @@ target/
 
 # IntelliJ Generated
 .idea
+*.iml
 
 # Front End Dependency Generated
 frontend/.sass-cache/
@@ -47,4 +48,5 @@ frontend/scss/.tmp/
 frontend/js/lib/
 frontend/typings/
 frontend/coverage/
+.env
 dist/

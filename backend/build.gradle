@@ -65,6 +65,10 @@ bootRun {
 	classpath = sourceSets.main.runtimeClasspath + configurations.dev
 }
 
+springBoot {
+	executable = true
+}
+
 // run all task
 task runAll {}
 runAll.dependsOn(bootRun)
